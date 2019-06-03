@@ -10,12 +10,6 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT NOW()
 );
 
-INSERT INTO users (email) VALUES 
-("swagger69@gmail.com"), 
-("blaz0r420@yahoo.com");
-
 DROP VIEW IF EXISTS total_users;
 CREATE VIEW total_users AS
 SELECT COUNT(*) as total FROM users;
-
-SELECT * FROM total_users;

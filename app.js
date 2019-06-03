@@ -13,6 +13,9 @@ connection.connect((err) => {
     console.log('Connected!')
 })
 
+// GET TOTAL USER COUNT
+//
+//
 // let query = 'SELECT * FROM total_users'
 
 // connection.query(query, (err, res, fields) => {
@@ -20,7 +23,6 @@ connection.connect((err) => {
 //     console.log(`This solution is:`)
 //     console.log(res[0]['COUNT(*)'])
 // })
-
 
 // CREATING FAKE DATA FOR MySQL DATABASE
 //
